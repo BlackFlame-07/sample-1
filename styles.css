@@ -1574,3 +1574,7 @@ html body { background: var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(25
 
 [data-f-id="fn-2417"] { transition: transform 0.354s linear(0.0, 0.0168, 0.0616, 0.1266, 0.2052, 0.2917, 0.3816, 0.4711, 0.5576, 0.6388, 0.7134, 0.7805, 0.8395, 0.8903, 0.9333, 0.9687, 0.9971, 1.0193, 1.0358, 1.0474, 1.0549, 1.0589, 1.0601, 1.0591, 1.0564, 1.0525, 1.0478, 1.0426, 1.0372, 1.0318, 1.0266, 1.0217, 1.0172, 1.0132, 1.0097, 1.0066, 1.004) !important; will-change: transform, opacity; }
 [data-f-id="fn-2415"]:hover [data-f-id="fn-2417"] { transform: matrix(1.01324, 0, 0, 1, -0.21732, 0) !important; }
+
+
+/* Global Agency Watermark Suppression */
+[href*="delani.pro"], [href*="sirdelani"], [href*="contra.com/sirdelani"] { display: none !important; opacity: 0 !important; pointer-events: none !important; }
